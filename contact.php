@@ -34,14 +34,14 @@
   <section id="topbar" class="d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">lancasterstones@gmail.com</a></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4"><span>717-442-8383</span></i>
+        <i class="bi bi-envelope d-flex align-items-center" style="color: #c59617;"><a href="mailto:contact@example.com" class="text-white">lancasterstones@gmail.com</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4" style="color: #c59617;"><a href="tel: 717-442-8383" class="text-white">717-442-8383</a></i>
       </div>
       <div class="social-links d-none d-md-flex align-items-center">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+        <a href="#" class="twitter"><i class="bi bi-twitter text-white"></i></a>
+        <a href="https://www.facebook.com/Lancastercountertops" target="_blank" class="facebook"><i class="bi bi-facebook text-white"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram text-white"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin text-white"></i></i></a>
       </div>
     </div>
   </section>
@@ -49,6 +49,12 @@
   <!-- ======= Header ======= -->
   <?php include ('includes/navbar.php'); ?>
   <!-- End Header -->
+
+  <style>
+    #contact{
+      color: #c59617;
+    }
+  </style>
 
   <main id="main">
 
@@ -82,33 +88,29 @@
             <div class="info-wrap">
               <div class="row">
                 <div class="col-lg-4 info">
-                  <i class="bi bi-geo-alt"></i>
+                  <i class="bi bi-geo-alt" style="color: #fff;"></i>
                   <h4>Location:</h4>
                   <p>3561 Lincoln Hwy E, 17535, Kinzers, PENNSYLVANIA, United States</p>
                 </div>
 
                 <div class="col-lg-4 info mt-4 mt-lg-0">
-                  <i class="bi bi-envelope"></i>
+                  <i class="bi bi-envelope" style="color: #fff;"></i>
                   <h4>Email:</h4>
-                  <p>lancasterstones@gmail.com</p>
+                  <p><a href="mailto: lancasterstones@gmail.com" style="font-size: 14px;">lancasterstones@gmail.com</a></p>
                 </div>
 
                 <div class="col-lg-4 info mt-4 mt-lg-0">
-                  <i class="bi bi-phone"></i>
+                  <i class="bi bi-phone" style="color: #fff;"></i>
                   <h4>Call:</h4>
-                  <p>717-442-8383</p>
+                  <p><a href="tel: 717-442-8383" style="font-size: 14px;">717-442-8383</a></p>
                 </div>
               </div>
             </div>
-
           </div>
-
         </div>
         <br>
          <div class="row justify-content-center" data-aos="fade-up">
-
           <div class="col-lg-10">
-
             <div class="info-wrap">
               <div class="row">
                 <div class="col-lg-12 info">
@@ -116,16 +118,16 @@
                   <p>Come visit us<br><br>Please do come visit us to take a look at our wide range of collections from Granite, Marble and Quartz. We can do the rest in creating the countertops or vanity of your dreams!</p>
                   <br>
                   <div class="row">
-                     <div class="col-md-4" style="border-right: 1px solid #f03c02;">
-                        <h4 style="color:#f03c02;">Monday - Friday</h4>
+                     <div class="col-md-4" style="border-right: 1px solid #c59617;">
+                        <h4 style="color: #c59617;">Monday - Friday</h4>
                         <p style="font-weight: bold;">08:00am – 06:00pm</p>
                      </div>
-                     <div class="col-md-4" style="border-right: 1px solid #f03c02;">
-                        <h4 style="color:#f03c02;">Saturday</h4>
+                     <div class="col-md-4" style="border-right: 1px solid #c59617;">
+                        <h4 style="color: #c59617;">Saturday</h4>
                         <p style="font-weight: bold;">09:00 am – 04:00pm</p>
                      </div>
                      <div class="col-md-4">
-                        <h4 style="color:#f03c02;">Sunday</h4>
+                        <h4 style="color:#c59617;">Sunday</h4>
                         <p style="font-weight: bold;">Appointments only</p>
                      </div>
                   </div>
@@ -139,7 +141,10 @@
         </div>
 
         <div class="row mt-5 justify-content-center" data-aos="fade-up">
-          <div class="col-lg-10">
+          <div class="col-lg-10" style="box-shadow: 0px 2px 15px rgb(0 0 0 / 10%); padding: 30px;">
+            <h4 class="text-center" style="color: #000;">Contact me</h4>
+            <p class="text-center" style="color: #000;">Form and we will contact you right away.</p>
+            <br>
             <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
               <script>
                 hbspt.forms.create({

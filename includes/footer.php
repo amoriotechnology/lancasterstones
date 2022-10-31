@@ -5,33 +5,34 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Logo Here</h3>
-            <p>
+            <a href="index.php"><img src="assets/img/logo.jpg" width="80" alt="logo" class="img-fluid"></a>
+            <br><br>
+            <p class="text-white">
               3561 Lincoln Hwy E
               Kinzers, PENNSYLVANIA, 17535, United States<br><br>
-              <strong>Phone:</strong> 717-442-8383<br>
-              <strong>Email:</strong> lancasterstones@gmail.com<br>
+              <strong>Phone:</strong>&nbsp;<a href="tel: 717-442-8383" style="font-size: 14px; color: #c59617;">717-442-8383</a><br>
+              <strong>Email:</strong>&nbsp;&nbsp;<a href="mailto: lancasterstones@gmail.com" style="font-size: 14px; color: #c59617;">lancasterstones@gmail.com</a><br>
             </p>
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.php">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.php">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contact.php">Contact</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="privacy_policy.php">Privacy policy</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Granite</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marble</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Quartz</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Quartzite</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="granite_gallery.php">Granite</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="marble_gallery.php">Marble</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="quartz_gallery.php">Quartz</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="quartzite_gallery.php">Quartzite</a></li>
             </ul>
           </div>
 
@@ -56,7 +57,7 @@
               var CurrentYear = new Date().getFullYear()
               document.write(CurrentYear)
             </script> 
-            , designed & developed by <a style="color: #f03c02 !important;" href="http://amoriotech.com/" target="_blank" class="text-muted">Amorio Technologies</a>
+            , designed & developed by <a style="color: #c59617 !important;" href="http://amoriotech.com/" target="_blank" class="text-muted">Amorio Technologies</a>
           </p>
         </div>
       </div>
@@ -64,7 +65,7 @@
         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="https://www.facebook.com/Lancastercountertops" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
         <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
         <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
     </div>
@@ -81,6 +82,7 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script type="assets/script.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>

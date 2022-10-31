@@ -34,14 +34,14 @@
   <section id="topbar" class="d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">lancasterstones@gmail.com</a></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4"><span>717-442-8383</span></i>
+        <i class="bi bi-envelope d-flex align-items-center" style="color: #c59617;"><a href="mailto:contact@example.com" class="text-white">lancasterstones@gmail.com</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4" style="color: #c59617;"><a href="tel: 717-442-8383" class="text-white">717-442-8383</a></i>
       </div>
       <div class="social-links d-none d-md-flex align-items-center">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="https://www.facebook.com/Lancastercountertops" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+        <a href="#" class="twitter"><i class="bi bi-twitter text-white"></i></a>
+        <a href="https://www.facebook.com/Lancastercountertops" target="_blank" class="facebook"><i class="bi bi-facebook text-white"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram text-white"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin text-white"></i></i></a>
       </div>
     </div>
   </section>
@@ -52,9 +52,15 @@
 
   <!-- End Header -->
 
+  <style>
+    #home{
+      color: #c59617;
+    }
+  </style>
+
   <!-- ======= Hero Section ======= -->
   <section id="hero">
-    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div id="heroCarousel" data-bs-interval="1000" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
       <div class="carousel-inner" role="listbox">
 
@@ -62,9 +68,9 @@
         <div class="carousel-item active" style="background-image: url(assets/img/slide/banner.png);">
           <div class="carousel-container">
             <div class="carousel-content animate__animated animate__fadeInUp">
-              <h2>DESIGN AND RENOVATION</h2>
-              <p>LANCASTER STONES &nbsp; <span style="color: #f03c02;">KITCHEN,BATHROOM COMPLETE REMODELING</span></p>
-              <div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
+              <h2>Design and Renovation</h2>
+              <p>Lancaster Stones &nbsp; <span style="color: #c59617;">Kitchen,Bathroom Complete Remodeling</span></p>
+              <div class="text-center"><a href="about.php" class="btn-get-started">Read More</a></div>
             </div>
           </div>
         </div>
@@ -73,9 +79,9 @@
         <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg);">
           <div class="carousel-container">
             <div class="carousel-content animate__animated animate__fadeInUp">
-              <h2>DESIGN AND RENOVATION</h2>
-              <p>LANCASTER STONES &nbsp; <span style="color: #f03c02;">KITCHEN,BATHROOM COMPLETE REMODELING</span></p>
-              <div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
+              <h2>Design and Renovation</h2>
+              <p>Lancaster Stones &nbsp; <span style="color: #c59617;">Kitchen,Bathroom Complete Remodeling</span></p>
+              <div class="text-center"><a href="about.php" class="btn-get-started">Read More</a></div>
             </div>
           </div>
         </div>
@@ -84,9 +90,9 @@
         <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg);">
           <div class="carousel-container">
             <div class="carousel-content animate__animated animate__fadeInUp">
-              <h2>DESIGN AND RENOVATION</h2>
-              <p>LANCASTER STONES &nbsp; <span style="color: #f03c02;">KITCHEN,BATHROOM COMPLETE REMODELING</span></p>
-              <div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
+              <h2>Design and Renovation</h2>
+              <p>Lancaster Stones &nbsp; <span style="color: #c59617;">Kitchen,Bathroom Complete Remodeling</span></p>
+              <div class="text-center"><a href="about.php" class="btn-get-started">Read More</a></div>
             </div>
           </div>
         </div>
@@ -122,7 +128,7 @@
               We are fully licensed and insured Its very important to be safe then sorry , we got you fully covered , from workers getting hurt on the job site to property damage caused by any accident or error </p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <img src="assets/img/m.jpg" width="450" height="450" alt="">
+            <img src="assets/img/ban.jpg" width="450" height="350" style="border-radius: 20px;" alt="">
           </div>
         </div>
 
@@ -170,67 +176,67 @@
     <!-- End Services Section -->
 
     <!-- ======= Our Clients Section ======= -->
-    <section id="clients" class="clients">
-      <div class="container">
+    <!--<section id="clients" class="clients">-->
+    <!--  <div class="container">-->
 
-        <div class="section-title" data-aos="fade-up">
-          <h2>Our <strong>Clients</strong></h2>
-        </div>
+    <!--    <div class="section-title" data-aos="fade-up">-->
+    <!--      <h2>Our <strong>Clients</strong></h2>-->
+    <!--    </div>-->
 
-        <div class="row no-gutters clients-wrap clearfix" data-aos="fade-up">
+    <!--    <div class="row no-gutters clients-wrap clearfix" data-aos="fade-up">-->
 
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client.png" class="img-fluid" alt="">
-            </div>
-          </div>
+    <!--      <div class="col-lg-3 col-md-4 col-xs-6">-->
+    <!--        <div class="client-logo">-->
+    <!--          <img src="assets/img/clients/client.png" class="img-fluid" alt="">-->
+    <!--        </div>-->
+    <!--      </div>-->
 
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client.png" class="img-fluid" alt="">
-            </div>
-          </div>
+    <!--      <div class="col-lg-3 col-md-4 col-xs-6">-->
+    <!--        <div class="client-logo">-->
+    <!--          <img src="assets/img/clients/client.png" class="img-fluid" alt="">-->
+    <!--        </div>-->
+    <!--      </div>-->
 
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client.png" class="img-fluid" alt="">
-            </div>
-          </div>
+    <!--      <div class="col-lg-3 col-md-4 col-xs-6">-->
+    <!--        <div class="client-logo">-->
+    <!--          <img src="assets/img/clients/client.png" class="img-fluid" alt="">-->
+    <!--        </div>-->
+    <!--      </div>-->
 
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client.png" class="img-fluid" alt="">
-            </div>
-          </div>
+    <!--      <div class="col-lg-3 col-md-4 col-xs-6">-->
+    <!--        <div class="client-logo">-->
+    <!--          <img src="assets/img/clients/client.png" class="img-fluid" alt="">-->
+    <!--        </div>-->
+    <!--      </div>-->
 
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client.png" class="img-fluid" alt="">
-            </div>
-          </div>
+    <!--      <div class="col-lg-3 col-md-4 col-xs-6">-->
+    <!--        <div class="client-logo">-->
+    <!--          <img src="assets/img/clients/client.png" class="img-fluid" alt="">-->
+    <!--        </div>-->
+    <!--      </div>-->
 
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client.png" class="img-fluid" alt="">
-            </div>
-          </div>
+    <!--      <div class="col-lg-3 col-md-4 col-xs-6">-->
+    <!--        <div class="client-logo">-->
+    <!--          <img src="assets/img/clients/client.png" class="img-fluid" alt="">-->
+    <!--        </div>-->
+    <!--      </div>-->
 
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client.png" class="img-fluid" alt="">
-            </div>
-          </div>
+    <!--      <div class="col-lg-3 col-md-4 col-xs-6">-->
+    <!--        <div class="client-logo">-->
+    <!--          <img src="assets/img/clients/client.png" class="img-fluid" alt="">-->
+    <!--        </div>-->
+    <!--      </div>-->
 
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client.png" class="img-fluid" alt="">
-            </div>
-          </div>
+    <!--      <div class="col-lg-3 col-md-4 col-xs-6">-->
+    <!--        <div class="client-logo">-->
+    <!--          <img src="assets/img/clients/client.png" class="img-fluid" alt="">-->
+    <!--        </div>-->
+    <!--      </div>-->
 
-        </div>
+    <!--    </div>-->
 
-      </div>
-    </section><!-- End Our Clients Section -->
+    <!--  </div>-->
+    <!--</section><!-- End Our Clients Section -->-->
 
   </main><!-- End #main -->
 

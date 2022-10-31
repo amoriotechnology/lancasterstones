@@ -35,14 +35,14 @@
   <section id="topbar" class="d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">lancasterstones@gmail.com</a></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4"><span>717-442-8383</span></i>
+        <i class="bi bi-envelope d-flex align-items-center" style="color: #c59617;"><a href="mailto:contact@example.com" class="text-white">lancasterstones@gmail.com</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4" style="color: #c59617;"><a href="tel: 717-442-8383" class="text-white">717-442-8383</a></i>
       </div>
       <div class="social-links d-none d-md-flex align-items-center">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+        <a href="#" class="twitter"><i class="bi bi-twitter text-white"></i></a>
+        <a href="https://www.facebook.com/Lancastercountertops" target="_blank" class="facebook"><i class="bi bi-facebook text-white"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram text-white"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin text-white"></i></i></a>
       </div>
     </div>
   </section>
@@ -50,7 +50,11 @@
   <!-- ======= Header ======= -->
   <?php include('includes/navbar.php'); ?>
   <!-- End Header -->
-
+<style>
+#about{
+  color: #c59617;
+}
+</style>
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
@@ -123,6 +127,7 @@
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up">
+              <a href="granite_gallery.php">
               <div class="member-img">
                 <img src="assets/img/product/1.png" class="img-fluid" alt="">
                 <!-- <div class="social">
@@ -132,8 +137,9 @@
                   <a href=""><i class="bi bi-linkedin"></i></a>
                 </div> -->
               </div>
+              </a>
               <div class="member-info">
-                <h4>Granite</h4>
+                <h4><a href="granite_gallery.php">Granite</a></h4>
                <!--  <span>Chief Executive Officer</span> -->
               </div>
             </div>
@@ -141,17 +147,20 @@
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="100">
-              <div class="member-img">
-                <img src="assets/img/product/2.png" class="img-fluid" alt="">
-              </div>
+              <a href="marble_gallery.php">
+                <div class="member-img">
+                  <img src="assets/img/product/2.png" class="img-fluid" alt="">
+                </div>
+              </a>
               <div class="member-info">
-                <h4>Marble</h4>
+                <h4><a href="marble_gallery.php">Marble</a></h4>
               </div>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <a href="quartz_gallery.php">
               <div class="member-img">
                 <img src="assets/img/product/3.png" class="img-fluid" alt="">
                 <!-- <div class="social">
@@ -161,19 +170,22 @@
                   <a href=""><i class="bi bi-linkedin"></i></a>
                 </div> -->
               </div>
+              </a>
               <div class="member-info">
-                <h4>Quartz</h4>
+                <h4><a href="quartz_gallery.php">Quartz</a></h4>
               </div>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="300">
-              <div class="member-img">
-                <img src="assets/img/product/4.png" class="img-fluid" alt="">
-              </div>
+              <a href="quartzite_gallery.php">
+                <div class="member-img">
+                  <img src="assets/img/product/4.png" class="img-fluid" alt="">
+                </div>
+              </a>
               <div class="member-info">
-                <h4>Quartzite</h4>
+                <h4><a href="quartzite_gallery.php">Quartzite</a></h4>
               </div>
             </div>
           </div>
@@ -181,7 +193,32 @@
         </div>
 
       </div>
-    </section><!-- End Our Team Section -->
+    </section>
+    <!-- End Our Team Section -->
+
+     <section id="team" class="team">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2><strong>Book An Appointment</strong></h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-12">
+              <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+                <script>
+                  hbspt.forms.create({
+                    region: "na1",
+                    portalId: "22681795",
+                    formId: "b1602d5c-5244-42eb-ad60-2c37f5ece4aa"
+                  });
+                </script>
+      
+            </div>
+        </div>
+      </div>
+    </section>
 
     <!-- ======= Our Skills Section ======= -->
     <!-- <section id="skills" class="skills">

@@ -41,15 +41,14 @@
   <section id="topbar" class="d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:lancasterstones@gmail.com">lancasterstones@gmail.com
-</a></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4"><span>717-442-8383</span></i>
+        <i class="bi bi-envelope d-flex align-items-center" style="color: #c59617;"><a href="mailto:contact@example.com" class="text-white">lancasterstones@gmail.com</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4" style="color: #c59617;"><a href="tel: 717-442-8383" class="text-white">717-442-8383</a></i>
       </div>
       <div class="social-links d-none d-md-flex align-items-center">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+        <a href="#" class="twitter"><i class="bi bi-twitter text-white"></i></a>
+        <a href="https://www.facebook.com/Lancastercountertops" target="_blank" class="facebook"><i class="bi bi-facebook text-white"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram text-white"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin text-white"></i></i></a>
       </div>
     </div>
   </section>
@@ -57,6 +56,12 @@
   <!-- ======= Header ======= -->
   <?php include('includes/navbar.php'); ?>
   <!-- End Header -->
+
+  <style>
+    #gallery{
+      color: #c59617;
+    }
+  </style>
 
   <main id="main">
 
@@ -92,7 +97,7 @@
         <div class="row portfolio-container" data-aos="fade-up">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/gallery/1.jfif" class="img-fluid" alt="">
+            <img src="assets/img/gallery/1.png" class="img-fluid" alt="" style="border-radius: 20px;">
             <!-- <div class="portfolio-info">
               <h4>App 1</h4>
               <p>App</p>
@@ -102,86 +107,86 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/gallery/2.jfif" class="img-fluid" alt="">
+            <img src="assets/img/gallery/2.png" class="img-fluid" alt="" style="border-radius: 20px;">
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/gallery/3.jfif" class="img-fluid" alt="">
+            <img src="assets/img/gallery/3.png" class="img-fluid" alt="" style="border-radius: 20px;">
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/gallery/4.jfif" class="img-fluid" alt="">
+            <img src="assets/img/gallery/4.png" class="img-fluid" alt="" style="border-radius: 20px;">
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/gallery/5.jfif" class="img-fluid" alt="">
+            <img src="assets/img/gallery/5.png" class="img-fluid" alt="" style="border-radius: 20px;">
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/gallery/6.jfif" class="img-fluid" alt="">
+            <img src="assets/img/gallery/6.png" class="img-fluid" alt="" style="border-radius: 20px;">
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/gallery/7.jfif" class="img-fluid" alt="">
+            <img src="assets/img/gallery/7.png" class="img-fluid" alt="" style="border-radius: 20px;">
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/gallery/8.jfif" class="img-fluid" alt="">
+            <img src="assets/img/gallery/8.png" class="img-fluid" alt="" style="border-radius: 20px;">
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/gallery/9.jfif" class="img-fluid" alt="">
+            <img src="assets/img/gallery/9.png" class="img-fluid" alt="" style="border-radius: 20px;">
           </div>
 
            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/gallery/10.jfif" class="img-fluid" alt="">
+            <img src="assets/img/gallery/10.png" class="img-fluid" alt="" style="border-radius: 20px;">
           </div>
           
            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/gallery/11.jfif" class="img-fluid" alt="">
+            <img src="assets/img/gallery/11.png" class="img-fluid" alt="" style="border-radius: 20px;">
           </div>
 
            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/gallery/12.jfif" class="img-fluid" alt="">
+            <img src="assets/img/gallery/12.png" class="img-fluid" alt="" style="border-radius: 20px;">
           </div>
           
            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/gallery/13.jfif" class="img-fluid" alt="">
+            <img src="assets/img/gallery/13.png" class="img-fluid" alt="" style="border-radius: 20px;">
           </div>
 
            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/gallery/14.jfif" class="img-fluid" alt="">
+            <img src="assets/img/gallery/14.png" class="img-fluid" alt="" style="border-radius: 20px;">
           </div>
 
            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/gallery/15.jfif" class="img-fluid" alt="">
+            <img src="assets/img/gallery/15.png" class="img-fluid" alt="" style="border-radius: 20px;">
           </div>
           
            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/gallery/16.jfif" class="img-fluid" alt="">
+            <img src="assets/img/gallery/16.png" class="img-fluid" alt="" style="border-radius: 20px;">
           </div>
           
            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/gallery/17.jfif" class="img-fluid" alt="">
+            <img src="assets/img/gallery/17.png" class="img-fluid" alt="" style="border-radius: 20px;">
           </div>
           
            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/gallery/18.jfif" class="img-fluid" alt="">
+            <img src="assets/img/gallery/18.png" class="img-fluid" alt="" style="border-radius: 20px;">
           </div>
 
            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/gallery/19.jfif" class="img-fluid" alt="">
+            <img src="assets/img/gallery/19.png" class="img-fluid" alt="" style="border-radius: 20px;">
           </div>
           
            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/gallery/20.jfif" class="img-fluid" alt="">
+            <img src="assets/img/gallery/20.png" class="img-fluid" alt="" style="border-radius: 20px;">
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/gallery/21.jfif" class="img-fluid" alt="">
+            <img src="assets/img/gallery/21.png" class="img-fluid" alt="" style="border-radius: 20px;">
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+         <!--  <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <img src="assets/img/gallery/22.jfif" class="img-fluid" alt="">
           </div>
 
@@ -247,7 +252,7 @@
           
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <img src="assets/img/gallery/38.jfif" class="img-fluid" alt="">
-          </div>
+          </div> -->
 
         </div>
 
